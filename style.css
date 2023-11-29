@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .header{
+    width: 100%;
+    padding: 0.5% 0;
+    background: black;
+    text-align: center;
+    color: white;
+    }
+    .container{
+    width: 340px;
+    height: 360px;
+    box-shadow: 0px 0px 8px black;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
+    }
+    .container .screen{
+    height: 80px;
+    width: 100%;
+    background: rgba(14, 13, 13,0.9 );
+    border-radius: 10px;
+    margin-bottom: 20px;
+    }
+    .screen .exp{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: right;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    pointer-events: none;
+    }
+    .container .operation{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    }
+    .operation .btn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    background: rgb(160, 155, 155);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    }
+    .btn:hover{
+    cursor: pointer;
+    }
+    .operation .task{
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    background: rgb(160, 155, 155);
+    font-size: 15px;
+    font-weight: 600;
+    background: rgb(193, 86, 255,0.9);
+    }
+    .task:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+    border: 1px solid black;
+    box-shadow: 0px 0px 14px black;
+    }
+    .operation .clear{
+    height: 45px;
+    width: 45px;
+    border: none;
+    outline: none;
+    background: rgb(160, 155, 155);
+    font-size: 15px;
+    font-weight: 600;
+    background: red;
+    border-radius: 50%;
+    }
+    .clear:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0px 0px 10px red;
+    }
+    .operation .equal{
+    height: 45px;
+    width: 45px;
+    border: none;
+    outline: none;
+    background: rgb(160, 155, 155);
+    font-size: 15px;
+    font-weight: 600;
+    background: green;
+    border-radius: 50%;
+    }
+    .equal:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0px 0px 10px green;
+    }
